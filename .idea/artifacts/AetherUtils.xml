@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AetherUtils">
+    <output-path>$USER_HOME$/AppData/Roaming/.feather/player-server/servers/d6730654-5839-4883-9441-2f9a3e9a47b9/plugins</output-path>
+    <root id="archive" name="AetherUtils.jar">
+      <element id="module-output" name="AetherUtils" />
+    </root>
+  </artifact>
+</component>

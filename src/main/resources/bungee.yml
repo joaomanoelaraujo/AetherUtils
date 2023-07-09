@@ -1,0 +1,5 @@
+name: AetherUtils
+author: D4RKK
+version: 1.0.1
+
+main: me.lostedark.aetherplugins.utils.bungee.Bungee

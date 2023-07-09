@@ -1,0 +1,44 @@
+author: D4RKK
+name: AetherUtils
+version: 1.1
+
+commands:
+  chat:
+    description: Habilita e desabilita o chat
+    usage: /<command>
+  gm:
+    description: Muda o modo de jogo
+    usage: /<command> <gamemode>
+  motd:
+    description: Recarrega a motd
+    usage: /<command>
+  cc:
+    description: Limpa o chat
+    usage: /<command>
+  sc:
+    description: Staff chat
+    usage: /<command> <message>
+  items:
+    description: Dará items de administrador
+    usage: /<command>
+  v:
+    description: Modo Vanish
+    usage: /<command>
+  maintenance:
+    description: Comando para gerenciar o modo de manutenção
+    usage: /maintenance <on|off|add|remove> [jogador]
+    permission: role.admin
+    aliases: [m]
+    subcommands:
+      on:
+        description: Ativa o modo de manutenção
+      off:
+        description: Desativa o modo de manutenção
+      add:
+        description: Adiciona um jogador à whitelist
+      remove:
+  utils:
+    description: Recarrega o plugin
+    permission: role.admin
+
+main: me.lostedark.aetherplugins.utils.Main
